@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    background-color: #E5E5E5;  
+}
+
+.cuadroPrincipal {  
+  width: 100%;
+  height: 100vh;    
+  }
+
+
+.letraLogo{
+position: absolute;
+font-size: 100px;
+left: 10%;
+right: 37.43%;
+top: 0%;
+bottom: 0%;
+color: #0A3871;
+}
+
+.rectangulo{  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;  
+  color: #0A3871;  
+  text-align: center;
+  padding-top: 100px;
+
+  position: absolute;  
+  width: 400px;
+  height: 80%;
+  margin-top: 2%;
+  right: 5%;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+#contenedor{
+  background-image: url("../img/2.jpg");    
+}
+
+.rectangulotext{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+color: #0A3871;
+
+position: absolute; 
+left: 20%;
+top: 20%;
+background-color: #E5E5E5; 
+border-radius: 20px;
+border: none;
+}
+
+::placeholder{
+  color: #0A3871;
+}
+
+.rectangulotext:focus {
+  outline: none;
+}
+
+.btn{
+  position: absolute;
+  height: 67px;
+  width: 300px;
+  border-radius: 24px;
+  font-size: 20px;
+}
+
+#encriptar{
+  background-color: #0A3871;
+  color: #e8ebf0;
+  font-weight: bold; 
+  top: 80%; 
+  left: 28%;
+}
+
+#desencriptar{
+  background-color: #e8ebf0;
+  color: #0A3871;
+  font-weight: bold;
+  top: 80%; 
+  left: 48%;
+}
+
+
+.botonCopiar{ 
+  height: 67px;
+  width: 300px;
+  border-radius: 24px;
+  color: #0A3871;
+  background-color: #ffffff; 
+  border: solid 3px #0A3871;
+  font-size: 20px;
+  
+  position: absolute;
+  top: 80%; 
+  right: 7.5%;
+}
+
+.esconder{
+  display: none;
+}
+
+.letero{
+  position: absolute;
+  color:#0A3871;
+  top:75%;
+  left: 28%;
+}
+
+
+@media (max-width: 1500px){
+
+  .letraLogo{
+    left: 5%;
+  }
+
+  .rectangulotext{   
+    position: absolute; 
+    left: 10%;    
+    }
+
+    #encriptar{      
+      left: 13%;
+    }
+    
+    #desencriptar{            
+      left: 38%;
+    }
+    
+    .letero{      
+      left: 13%;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 1315px){
+
+  .letraLogo{
+    left: 0%;
+  }
+
+  .rectangulotext{   
+    position: absolute; 
+    left: 5%;    
+    }
+
+    #encriptar{      
+      left: 8%;
+    }
+    
+    #desencriptar{            
+      left: 35%;
+    }
+    
+    .letero{      
+      left: 8%;
+    }
+
+
+}
+
+
+@media (max-width: 1250px){
+
+  .cuadroPrincipal {      
+    height: 150vh;    
+    }
+
+  .letraLogo{
+    left: 5%;
+  }
+
+  .rectangulotext{   
+    width: 80%;
+    position: absolute; 
+    left: 10%;    
+    }
+
+    #encriptar{      
+      left: 20%;
+    }
+    
+    #desencriptar{            
+      left: 50%;
+    }
+    
+    .letero{      
+      left: 8%;
+    }
+
+    .rectangulo{            
+      width: 80%;
+      height: 40%;
+      top: 88%;      
+      right: 10%;
+      padding-top: 10px;      
+    }
+    
+    #contenedor{
+      background-image: url("../img/3.jpg");    
+      background-repeat: no-repeat;
+      background-position: center center;
+         
+    }
+
+    .botonCopiar{ 
+      top: 135%; 
+      right: 40%;
+    }
+
+
+}
+
+
+@media (max-width: 1050px){
+
+  .letraLogo{
+    left: 5%;
+  }
+
+  #encriptar{      
+    left: 13%;
+  }
+  
+  #desencriptar{            
+    left: 55%;
+  }
+
+}
+
+
+@media (max-width: 800px){
+
+  .rectangulotext{   
+    left: 20%;
+    top: 15%;
+    background-color: #E5E5E5; 
+    border-radius: 20px;
+    border: none;
+    }
+
+  .rectangulo{            
+    width: 80%;
+    height: 40%;
+    top: 95%;      
+    right: 10%;
+    padding-top: 10px;      
+  }
+
+  #encriptar{          
+    width: 80%;  
+    left: 10%;
+  }
+  
+  #desencriptar{            
+    left: 55%;
+    top: 88%; 
+    width: 80%;  
+    left: 10%;
+  }
+
+  .botonCopiar{ 
+    top: 139%; 
+    width: 80%;  
+    left: 10%;
+  }
+
+}
+

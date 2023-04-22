@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Reto_1</title>
+</head>
+<body>    
+
+<label>linea agregada</label>
+
+<section class="cuadroPrincipal">
+
+<label class="letraLogo" for="">a</label>
+
+<textarea class="rectangulo" id="contenedor"></textarea>
+<textarea class="rectangulotext" id="parrafo" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+<label class="letero" for=""> <i class="fa-solid fa-circle-info"></i> Solo letras minúsculas y sin acentos</label>
+
+<button class="botonCopiar" id="b3" onclick="copiarTexto();copy();desaparecer()">
+    <label > Copiar </label>
+</button>
+
+<button class="btn" id="encriptar" onclick="encriptar()">
+    <label > Encriptar</label>
+</button>
+
+<button class="btn" id="desencriptar" onclick="desencriptar()">
+    <label > Desencriptar</label>
+</button>
+
+
+
+</section>
+
+
+
+<script src="js/funciones.js"></script>
+<script src="https://kit.fontawesome.com/0b11d2741f.js" crossorigin="anonymous"></script>
+</body>
+</html>
